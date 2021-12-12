@@ -1,6 +1,7 @@
 {
   "$schema": "http://info.meshcentral.com/downloads/meshcentral-config-schema.json",
   "settings": {
+    "plugins":{"enabled": false},
     "cert": "myserver.mydomain.com",
     "_WANonly": true,
     "_LANonly": true,
