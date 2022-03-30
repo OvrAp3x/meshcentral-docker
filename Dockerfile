@@ -18,6 +18,7 @@ RUN npm install meshcentral
 
 #Install dependencies for plugins
 RUN npm install nedb
+RUN npm installarchiver
 
 COPY config.json.template /opt/meshcentral/config.json.template
 COPY startup.sh startup.sh
