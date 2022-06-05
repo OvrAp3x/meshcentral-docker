@@ -18,6 +18,7 @@ RUN npm install meshcentral
 
 #Install dependencies for plugins
 RUN npm install nedb
+RUN npm install promise
 RUN npm install archiver@4.0.2
 
 COPY config.json.template /opt/meshcentral/config.json.template
