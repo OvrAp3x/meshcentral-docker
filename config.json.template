@@ -23,6 +23,7 @@
     "minify": true,
     "NewAccounts": true,
     "localSessionRecording": false,
+    "ssh:" true,
 	"_userNameIsEmail": true,
     "_certUrl": "my.reverse.proxy"
 	}
