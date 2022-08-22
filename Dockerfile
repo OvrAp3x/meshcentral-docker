@@ -15,6 +15,8 @@ RUN mkdir -p /opt/meshcentral
 WORKDIR /opt/meshcentral
 
 RUN npm install meshcentral
+RUN npm install passport
+
 
 #Install dependencies for plugins
 RUN npm install nedb
