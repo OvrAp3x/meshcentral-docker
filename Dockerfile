@@ -15,7 +15,8 @@ RUN mkdir -p /opt/meshcentral
 WORKDIR /opt/meshcentral
 
 RUN npm install meshcentral
-RUN npm install passport
+RUN npm install -g passport@0.5.3
+
 
 
 #Install dependencies for plugins
