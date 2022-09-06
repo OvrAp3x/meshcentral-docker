@@ -16,13 +16,15 @@ WORKDIR /opt/meshcentral
 
 RUN npm install meshcentral
 RUN npm install passport@0.5.3
-
-
+RUN npm install passport-azure-oauth2
+RUN npm install jwt-simple
+RUN npm install otplib@10.2.3
 
 #Install dependencies for plugins
 RUN npm install nedb
 RUN npm install promise
 RUN npm install archiver@4.0.2
+
 
 COPY config.json.template /opt/meshcentral/config.json.template
 COPY startup.sh startup.sh
